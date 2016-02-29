@@ -19,3 +19,7 @@
 button {
     border-radius: 5px;
 }
+
+select {
+    font-size: xx-large;
+}

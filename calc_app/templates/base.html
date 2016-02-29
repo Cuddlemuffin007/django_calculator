@@ -15,7 +15,7 @@
     <div class="calculator">
     <form action="" method="post">
         {% csrf_token %}
-        <input title="calc-input" type="text" id="var1" name="var1" value="{{ next_val }}" placeholder="Value 1" class="display-block"/>
+        <input title="calc-input" type="text" id="var1" name="var1" value="{{ result }}" placeholder="Value 1" class="display-block"/>
         <input title="calc-input" type="text" id="var2" name="var2" placeholder="Value 2"/>
         <select title="calc-input" name="operators">
             <option value="add">+</option>

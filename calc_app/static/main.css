@@ -1,0 +1,22 @@
+.title {
+    text-align: center;
+}
+
+.calculator {
+    width: 30%;
+    margin: auto;
+    padding-top: 2em;
+}
+
+.display-block {
+    display: block;
+}
+.button {
+    padding: 10px 0;
+}
+
+
+
+button {
+    border-radius: 5px;
+}

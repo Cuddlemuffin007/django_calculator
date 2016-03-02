@@ -25,7 +25,7 @@
         </select>
         <div class="button">
         <button type="submit" class="btn btn-success">Calculate</button>
-        <a href{% url 'calc_view' %}><button type="button" class="btn btn-danger">Reset</button></a>
+        <a href="{% url 'calc_view' %}"><button type="button" class="btn btn-danger">Reset</button></a>
         </div>
     </form>
     <div class="operation">Operation: {{ var1 }} {{ operation }} {{ var2 }}</div>
